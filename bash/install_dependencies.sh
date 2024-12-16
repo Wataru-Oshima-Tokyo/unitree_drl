@@ -17,9 +17,10 @@ else
     exit 1
 fi
 
-
-
-cd ../isaacgym/python && pip install -e . && cd ../../
+cd ../ && wget https://developer.nvidia.com/isaac-gym-preview-4
+tar -xvf isaac-gym-preview-4
+rm -r  isaac-gym-preview-4
+cd ./isaacgym/python && pip install -e . && cd ../../
 cd ./rsl_rl && pip install -e . && cd ../
 cd ./unitree_rl_gym && pip install -e . && cd ../
 cd ./unitree_sdk2_python & pip install -e .

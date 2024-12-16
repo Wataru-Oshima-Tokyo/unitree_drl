@@ -1,0 +1,6 @@
+[submodule "unitree_rl_gym"]
+	path = unitree_rl_gym
+	url = https://github.com/Wataru-Oshima-Tokyo/unitree_rl_gym.git
+[submodule "rsl_rl"]
+	path = rsl_rl
+	url = https://github.com/leggedrobotics/rsl_rl
